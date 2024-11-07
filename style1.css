@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section2{
+    padding-top:30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color:#243238;
+    
+  }
+.section2 h1{
+   /* padding-top: 50px; */
+    font-size: 48px;
+    /* padding-bottom: 10px;*/
+ padding-left: 100px; 
+  }
+.parallel{
+    margin: 0px;
+  }
+  .section2 p{
+    padding-left: 100px;
+  }
+  
+  .cont-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .book-img{
+    margin-right: 30px;
+    margin-top:100px;
+  }
+  .web-name{
+    margin: 20px;
+  }
+
+/*----Categories Section---*/
+.cat-header{
+  text-align: center;
+  padding: 10px 0;
+}
+
+section{
+  width: 95%;
+ padding-bottom: 100px;
+}
+.cat-header h2{
+  font-size: 38px;
+  
+}
+.cat-books{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.cat-books .books{
+  width: 6000px;
+  height: 600;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.cat-books .books .book-img{
+  background-color: #0c0e0f3b;
+  padding: 18px;
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+  text-align: center;
+  position: relative;
+  left: 35%;
+}
+.cat-books .books img{
+  width: 100%;
+}
+
+.cat-books .books h4{
+  margin-top: 16px;
+  font-size: 22px;
+  position:relative;
+ 
+}
+
+.cat-books .books p{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+
+.cat-books2{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  
+ 
+}
+.cat-books2 .books{
+  width: 360px;
+  height: auto;
+  padding: 2px 10px;
+  position: relative;
+}
+
+.cat-books2 .books .book-img{
+  background-color: #0c0e0f3b;
+  padding: 18px;
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+  text-align: center;
+  position: relative;
+  left: 35%;
+}
+.cat-books2 .books img{
+  width: 100%;
+}
+
+.cat-books2 .books h4{
+  margin-top: 16px;
+  font-size: 22px;
+  position: relative;
+  left: 5%;
+}
+
+.cat-books2 .books p{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.menubar i{
+  color: #ffffff;
+  font-size: 30px;
+  padding-right: 20px;
+  position: absolute;
+  top: 22px;
+  right: 40px;
+  cursor: pointer;
+}
+/*------Conatct us section----*/
+#contactus{
+  background: rgba(245, 222, 179, 0.178);
+  width: 100%;
+}
+.contact-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 40px;
+}
+.contact-row form{
+  width: 450px;
+  padding: 12px 0;
+}
+.contact-row form input, textarea{
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  padding: 6px 50;
+  text-indent: 10px;
+  font-size: 18px;
+  background-color: #e7f0f3ac;
+}
+.contact-row form input::placeholder.textarea::placeholder{
+  color: #000;
+}
+.contact-row form input[type="submit"]{
+  text-align: center;
+  height: 50px;
+  cursor: pointer;
+  background-color: #0b910b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.contact-row form input[type="submit"]:hover{
+border: 1px solid #0b910b;
+color: #0d9d4b;
+background: #ffffff;
+background-image: url(imagesproject1/booknestbg.jfif);
+}
+.contact-row .col img{
+  width: 600px;
+  height:500px;
+  padding-left: 0px;
+ 
+  border-radius: 10px;
+}
+.contact-row .col h2{
+  font-size: 24px;
+  font-weight: 600;
+} 
+/*-----Footer Section----*/
+.footer{
+  background: black;
+  padding: 26px 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*----Responsive----*/
+@media(max-width:1420px) {
+  .set-row{
+    display: block;
+  }
+  .contact-row{
+    display: block;
+  }
+}
+
+@media (max-width:991px) {
+  .navbar{
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 10%;
+    width: 300px;
+    height: auto;
+    background: #072019;
+  }
+  .navbar li{
+    display: block;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+
+}
